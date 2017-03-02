@@ -19,10 +19,10 @@ function [centroids,clusterAssment]=mykmeans(dataSet,k)
                     minDist = distJI; minIndex = j;
                 end
             end
-            if clusterAssment(i,1) ~= minIndex %Ê¹ÓÃclusterAssment(i,0)»á³ö´í£¬matlabÖÐÏÂ±ê´Ó1¿ªÊ¼
+            if clusterAssment(i,1) ~= minIndex %ä½¿ç”¨clusterAssment(i,0)ä¼šå‡ºé”™ï¼Œmatlabä¸­ä¸‹æ ‡ä»Ž1å¼€å§‹
                 clusterChanged = true;
             end
-            clusterAssment(i,:) = [minIndex,minDist.*2];
+            clusterAssment(i,:) = [minIndex,minDist.*minDist];
         end
         for cent = 1:k
             ptsInClust = dataSet(clusterAssment(:,1)==cent,:);
