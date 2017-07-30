@@ -640,8 +640,9 @@ for i=1:m
 end
 grid on;
 
-```matlab
+```
 输出结果：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170228140713212?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 左边为原数据的分布（由不同颜色区分），右图是使用kmeans划分得到的数据分布（中间的黑色菱形代表簇的质心）。
 
@@ -665,18 +666,29 @@ DRUGIn”文件的导入：
 
 随后，双击“建模”界面下的K-measns，如下图：
 
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227161620072?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-点击![这里写图片描述](http://img.blog.csdn.net/20170227161710838?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)运行，可得到如下结果：
+点击 ![这里写图片描述](http://img.blog.csdn.net/20170227161710838?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 运行，可得到如下结果：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227161950034?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 结果提示：字段的指定类型不足，这就要求在可变文件之后修改字段类型，这里选用“字段类型”的“类型”。
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227162251715?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 运行后，结果如下：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227162416696?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-右键![这里写图片描述](http://img.blog.csdn.net/20170227162508216?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)，选择“编辑”，可得聚类结果：
+
+右键 ![这里写图片描述](http://img.blog.csdn.net/20170227162508216?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)，选择“编辑”，可得聚类结果：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227162634748?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 点击“视图”，可更改视图类型：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170227162908796?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGluemNoMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 参考自：http://www.docin.com/p-598480949.html
 
 
